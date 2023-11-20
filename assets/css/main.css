@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+ hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -75,7 +75,7 @@ input, select, textarea {
 /* Basic */
 
 	html {
-		box-sizing: border-box;
+		/* box-sizing: border-box; */
 	}
 
 	*, *:before, *:after {
@@ -2197,7 +2197,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 35px 1em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2205,7 +2205,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 2.0em;
 			}
 
 /* Labeled Icons */
@@ -2598,13 +2598,13 @@ input, select, textarea {
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
-		height: 100%;
+		height: auto;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 100%;
 	}
 
 		#header > * {
@@ -2681,20 +2681,21 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
-		margin-left: 35%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+	#mainn {
+		background-image:  url("../../images/ssss.jpg");
+		height: 54em;
+		padding: 4em 4em 4em 4em; 
+		/* width: 100%; */
 	}
+	
 
-		#main > section {
+		#mainn > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 1em 0 0 0;
 		}
 
-			#main > section:first-child {
+			#mainn > section:first-child {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
@@ -2980,7 +2981,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 100%) {
 
 		/* Basic */
 
@@ -2992,13 +2993,13 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width:  100%) {
 
 		/* Header */
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 100%;
 			}
 
 				#header h1 {
@@ -3026,17 +3027,17 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 30%;
-				max-width: none;
-				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				background-image: url("images/overlay.png"), url("../../images/sp.jpg");
+				/* max-width: none; */
+				padding: 3em 3em 3em 3em;
+				width: 100%;
 			}
 
 	}
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width:  100%) {
 
 		/* Basic */
 
@@ -3110,7 +3111,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				/* padding: 6em 4em; */
 				width: 100%;
 			}
 
@@ -3118,7 +3119,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width:  100%) {
 
 		/* Basic */
 
@@ -3176,9 +3177,9 @@ input, select, textarea {
 				padding: 2.25em 1.5em 0.25em 1.5em;
 			}
 
-				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+				#mainn > section {
+					 margin: 2.25em 0 0 0; 
+					padding: 2.25em 0 0 0; 
 				}
 
 		/* Poptrox */
@@ -3196,7 +3197,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width:  100%) {
 
 		/* Header */
 
