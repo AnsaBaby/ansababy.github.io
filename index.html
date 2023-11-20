@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-	<title>Ansa's Analytics Arena</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>Ansa's Analytics Arena</title>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<style>
 		.badge-container {
@@ -22,63 +22,121 @@
 			height: auto;
 			display: block;
 		}
+		#nav ul.links {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			padding: 0;
+			}
+
+		#nav ul.links li {
+			margin: 0;
+		}
+		.skill-levels {
+			display: flex;
+			margin-top: 69px;
+			margin-left: 50px;
+			flex-direction: column;
+		}
+
+		.skill-levels p {
+			margin: 5px 0;
+		}
+		.boxed-btn3 {
+			background: #615C8B;
+			color: #fff;
+			display: inline-block;
+			padding: 1px 20px;
+			font-family: "Muli", sans-serif;
+			font-size: 16px;
+			font-weight: 500;
+			border: 0;
+			border: 2px solid transparent;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			border-radius: 0px;
+			text-align: center;
+			color: #fff !important;
+			text-transform: capitalize;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			cursor: pointer;
+			margin-top: 37px;
+		}
 	</style>
 </head>
-<body class="is-preload">
-	<!-- Header -->
-	<header id="header">
-		<div class="inner">
-			<a href="#" class="image avatar"><img src="images/4.jpg" alt="" /></a>
-			<h2><strong>Bonjour!<br> I am Ansa Baby </strong> <br> I'm excited to present my portfolio filled with data-driven discoveries.  <br/></h2>
-		</div>
-	</header>
+<body class="is-preload"">
+	<!-- Main Content -->
+	<div id="mainn">
+		<!-- Navigation Buttons -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="#" onclick="showSection('home')">Home</a></li>
+				<li><a href="#" onclick="showSection('about')">About</a></li>
+				<li><a href="https://ansababy.medium.com/" target="_blank">Blog</a></li>
+				<li><a href="#" onclick="showSection('projects')">Skills</a></li>
+				<li><a href="#" onclick="showSection('EDUCATION')">Education</a></li>
+				<li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+			</ul>
+		</nav>
+		
+		<!-- About Section -->
+			<section id="home">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/4.jpg" alt="" style="height: 221px;"/></a>
+					<h2><strong>Bonjour!<br> I am Ansa Baby </strong> <br> I'm excited to present my portfolio filled with data-driven discoveries.  <br/></h2>
+				</div>
+				<div style="margin: -18em 60em">
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/thedataartistry/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://ansababy.medium.com/" target="_blank" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						<li><a href="https://www.linkedin.com/in/ansababy/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/AnsaBaby" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:the.data.artistry@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
 
-	<!-- Main -->
-	<div id="main">
-		<!-- One -->
-		<section id="one">
+				<!-- New "Get in Touch" section -->
+				<div style="background: #001D38;margin-top:500px;text-align: center!important;    padding: 77px;">
+					<h3 style="color: #fff;font-size: 50px;font-weight: 700;">Get in Touch</h3>
+					<p style="color: #fff;   font-size: 15px;    line-height: 28px;    margin-bottom: 30px;   margin-top: 12px;">My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!<br>let's connect and discuss.</p>
+					<a class="boxed-btn3" href="mailto:the.data.artistry@gmail.com">Let's connect</a>
+				</div>
+			</section>
+
+		<!-- Home Section -->
+		<section id="about">
+			<!-- Your existing home section content -->
 			<header class="major">
 				<h2>ABOUT ME<br /></h2>
 			</header>
+			
 			<p>
 				I am a data science enthusiast who is passionate about helping people learn and grow. with Master's degree in Data Science from Manchester Metropolitan University and 7 years of industry experise, I bring a wealth of experience to the world of data science.</p>
 			<p>
 				Feel free to explore my skills and experience, and don't hesitate to reach out for mentorship, advice, or opportunities in the dynamic realm of data science and Machine Learning.
 			</p>
-		</section>
-		<section>
+			
 			<h2>CONNECT WITH ME ON TOPMATE FOR DATA SCIENCE GUIDANCE</h2>
+			
 			<p>Visit my <a href="https://topmate.io/ansa_baby" target="_blank">Topmate Data Science Mentor page</a> for guidance and support in your data science journey.</p>
+			
 			<a href="https://topmate.io/ansa_baby" target="_blank">
 			<img src="images/topmate.jpg" alt="Topmate Mentor" style="width: 600px; height: 300px;">
 			</a>
+			
 		</section>
 
-		<!-- Two -->
-		<section id="two">
-			<h2>MY LATEST BLOG POSTS</h2>
-			<ul>
-				<li><a href="https://ansababy.medium.com/how-to-start-your-data-science-journey-420173a981a9">How & Where to start your Data Science Journey?</a></li>
-				<li><a href="https://ansababy.medium.com/a-roadmap-to-python-programming-71304f8f486b">A Roadmap to Python Programming</a></li>
-				<li><a href="https://ansababy.medium.com/an-introduction-to-python-basics-960dc3e7bebc">An introduction to Python Basics</a></li>
-				<li><a href="https://ansababy.medium.com/advanced-python-6740a0e7df1e">Advanced Python</a></li>
-				<li><a href="https://ansababy.medium.com/machine-learning-its-types-1082ba255d05">Machine Learning & its Types</a></li>
-			</ul>
-		</section>
+		
 
-		<!-- Three -->
-		<section id="three">
+
+		<!-- Projects Section -->
+		<section id="projects">
+			<!-- Your existing projects section content -->
 			<div class="text-center">
-				<div class="menu-content">
-					<div class="title text-center">
-						<h2 class="mb-10">SKILLS EXPERTISE</h2>
-						1 - Basic <span style="display: inline-block; width: 2ch;">    </span>
-						2 - Novice <span style="display: inline-block; width: 2ch;">    </span>
-						3 - Intermediate<span style="display: inline-block; width: 2ch;">    </span>
-						4 - Advanced<span style="display: inline-block; width: 2ch;">    </span>
-						5 - Expert
-					</h2></div>
-				</div>
+				
 				<div class="container">
 					<div class="row skillbar-wraps">
 						<div class="col-lg-4 skill-left">
@@ -161,13 +219,40 @@
 								</div>
 							</div>
 						</div>
-						</div>
-						</div>
-						</section>
+						<div class="skill-levels">
+					<p>1 - Basic</p>
+					<p>2 - Novice</p>
+					<p>3 - Intermediate</p>
+					<p>4 - Advanced</p>
+					<p>5 - Expert</p>
+				</div>
+					</div>
+				</div>
+		</section>
 
-						<!-- Your HTML code with Bootstrap classes -->
-						<section>
-							<h2 class="mb-10">BADGES</h2>
+		<!-- Experience Section -->
+		<section id="EDUCATION">
+			<!-- Your existing experience section content -->
+					<!-- Your existing certifications section content -->
+					<h2>EDUCATION<br /></h2>
+					<p>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3>
+ 						Manchester Metropolitan University,UK<br>
+						Passed with Distinction (80%)
+						<br>
+						M.Sc.Data Science, 2022-2023<br><br></br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> Easa College of Engg & Tech, India<br>
+						Passed with Distinction (80%)	
+						<br>						
+						B.E. Electronics & Communication Engineering,2015-2019
+						
+					</p>
+							
+		</section>
+
+		<!-- Certifications Section -->
+		<section id="certifications">
+						<h2 class="mb-10">BADGES</h2>
 							<div class="badge-container">
 								<div class="badge-item">
 									<a href="https://www.credly.com/badges/69013dc7-667b-4dfa-9b2f-8a937440749b/public_url" target="_blank">
@@ -194,61 +279,52 @@
 									</a>
 								</div>
 							</div>
-						</section>
+							<div style="height:105px"></div>
+							
+					<h2>CERTIFICATIONS</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/bi.jpg" class="image fit thumb"><img src="images/thumbs/bi.jpg" alt="" /></a>
+								<span>Datacamp Associate Data Scientist Certification</span>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/uda.jpg" class="image fit thumb"><img src="images/thumbs/uda.jpg" alt="" /></a>
+								<span>Udemy Data Sciene Certification</span>
+								 
+							</article>
 
-						<!-- Five -->
-						<section id="five">
-							<h2>EDUCATION<br /></h2>
-							<p>
-								<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> Manchester Metropolitan University, U.K - M.Sc.Data Science, 2022-2023</br>
-								<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> Easa College of Engg & Tech, India - B.E. Electronics & Communication Engineering,2015-2019
-							</p>
-						</section>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/rpa.jpg" class="image fit thumb"><img src="images/thumbs/rpa.jpg" alt="" /></a>
+								<span>Infosys Certified RPA Developer</span>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/da.jpg" class="image fit thumb"><img src="images/thumbs/da.jpg" alt="" /></a>
+								<span>High Performance Computing- Archer 2</span>
+							</article>
+						</div>
 
-						<!-- Six -->
-						<section id="six">
-							<h2>CONTACT DETAILS</h2>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Manchester,<br />
-										United Kingdom
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										+44 7867086115
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:ansababy1994@gmail.com?">ansababy1994@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</section>
-
-						<!-- Footer -->
-					</div>
-<footer id="footer">
-	<div class="inner">
-		<ul class="icons">
-			<li><a href="https://www.instagram.com/thedataartistry/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			<li><a href="https://ansababy.medium.com/" target="_blank" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
-			<li><a href="https://www.linkedin.com/in/ansababy/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			<li><a href="https://github.com/AnsaBaby" class="icon brands fa-github"><span class="label">Github</span></a></li>
-			<li><a href="mailto:ansababy1994@gmail.com?" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-		</ul>
+		</section>
 	</div>
-</footer>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.poptrox.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+	$(document).ready(function () {
+			$('section').hide();
+			// Show the selected section
+			$('#home').show();
+	});
+		function showSection(sectionId) {
+			// Hide all sections
+			$('section').hide();
+			// Show the selected section
+			$('#' + sectionId).show();
+		}
+	</script>
 </body>
 </html>
-
-																		
