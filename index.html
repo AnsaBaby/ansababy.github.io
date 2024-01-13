@@ -5,67 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<title>Ansa's Analytics Arena</title>
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<style>
-		.badge-container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-		}
-
-		.badge-item {
-			flex: 0 0 220px; 
-			margin-bottom: 10px;
-		}
-
-		.badge-item img {
-			max-width: 100%;
-			height: auto;
-			display: block;
-		}
-		#nav ul.links {
-			list-style: none;
-			display: flex;
-			justify-content: space-around;
-			padding: 0;
-			}
-
-		#nav ul.links li {
-			margin: 0;
-		}
-		.skill-levels {
-			display: flex;
-			margin-top: 69px;
-			margin-left: 50px;
-			flex-direction: column;
-		}
-
-		.skill-levels p {
-			margin: 5px 0;
-		}
-		.boxed-btn3 {
-			background: #615C8B;
-			color: #fff;
-			display: inline-block;
-			padding: 1px 20px;
-			font-family: "Muli", sans-serif;
-			font-size: 16px;
-			font-weight: 500;
-			border: 0;
-			border: 2px solid transparent;
-			-webkit-border-radius: 0px;
-			-moz-border-radius: 0px;
-			border-radius: 0px;
-			text-align: center;
-			color: #fff !important;
-			text-transform: capitalize;
-			-webkit-transition: 0.5s;
-			-moz-transition: 0.5s;
-			-o-transition: 0.5s;
-			transition: 0.5s;
-			cursor: pointer;
-			margin-top: 37px;
-		}
-	</style>
 </head>
 <body class="is-preload"">
 	<!-- Main Content -->
@@ -73,20 +12,27 @@
 		<!-- Navigation Buttons -->
 		<nav id="nav">
 			<ul class="links">
-				<li><a href="#" onclick="showSection('home')">Home</a></li>
-				<li><a href="#" onclick="showSection('about')">About</a></li>
-				<li><a href="https://ansababy.medium.com/" target="_blank">Blog</a></li>
-				<li><a href="#" onclick="showSection('projects')">Skills</a></li>
-				<li><a href="#" onclick="showSection('EDUCATION')">Education</a></li>
-				<li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+				<li><a class="headerpanel" id= "ahome" href="#" onclick="showSection('home')">Home</a></li>
+				<li><a class="headerpanel" id= "aabout" href="#" onclick="showSection('about')">About</a></li>
+				<li><a class="headerpanel" id= "ablog" href="https://ansababy.medium.com/" target="_blank">Blog</a></li>
+				<li><a class="headerpanel" id= "askills" href="#" onclick="showSection('skills')">Skills</a></li>
+				<li><a class="headerpanel" id= "aEducation" href="#" onclick="showSection('EDUCATION')">Education</a></li>
+				<li><a class="headerpanel" id= "aProjects" href="#" onclick="showSection('projects')">Projects</a></li>
 			</ul>
 		</nav>
 		
 		<!-- About Section -->
 			<section id="home">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/4.jpg" alt="" style="height: 221px;"/></a>
-					<h2><strong>Bonjour!<br> I am Ansa Baby </strong> <br> I'm excited to present my portfolio filled with data-driven discoveries.  <br/></h2>
+					<a href="#" class="image avatar"><img src="images/5.jpg" alt="" style="height: 230px;"/></a>
+					  <h3 style="font-size: 4.25em;margin: 0 0 0 0;background-image: linear-gradient(to bottom right, green,yellow,purple,white,red,blue,pink);
+								color: transparent;    display: inline-block;    -webkit-background-clip: text;    background-clip: text;">
+						  <a class="typewrite" data-period="1000"
+							  data-type='["Hello!", "Bonjour!","Namaste!", "Hola!","Ciao!", "Hallo!", "Ahlan!", "Olá!"]'>
+							<span class="wrap"></span>
+						  </a>
+					  </h3>
+					<h2 style="color:white;"><strong>I am Ansa Baby </strong><br>I love Data Storytelling & Machine Learning.  I'm excited to present my portfolio filled with data-driven discoveries.<br/></h2>
 				</div>
 				<div style="margin: -18em 60em">
 					<ul class="icons">
@@ -99,29 +45,31 @@
 				</div>
 
 				<!-- New "Get in Touch" section -->
-				<div style="background: #001D38;margin-top:500px;text-align: center!important;    padding: 77px;">
-					<h3 style="color: #fff;font-size: 50px;font-weight: 700;">Get in Touch</h3>
-					<p style="color: #fff;   font-size: 15px;    line-height: 28px;    margin-bottom: 30px;   margin-top: 12px;">My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!<br>let's connect and discuss.</p>
-					<a class="boxed-btn3" href="mailto:the.data.artistry@gmail.com">Let's connect</a>
+				<div style="margin-top: 500px; text-align: center!important; padding: 77px;border: 2px solid; border-image: linear-gradient(to right, #3495EB, #00FFA1); border-image-slice: 1;">
+					<h3 style="color: #fff; font-size: 50px; font-weight: 700;">Get in Touch</h3>
+					<p style="color: #fff; font-size: 15px; line-height: 28px; margin-bottom: 30px; margin-top: 12px;">
+						My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+						<br>Let's connect and discuss.
+					</p>
+					<a href="mailto:the.data.artistry@gmail.com" style="display: inline-block; padding: 15px 30px; background-color: #4CAF50; color: white; background: linear-gradient(to bottom right, #fc575e, #65b6f3);text-decoration: none; font-size: 18px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">
+						Let's connect
+					</a>
 				</div>
+
+			
 			</section>
 
 		<!-- Home Section -->
 		<section id="about">
-			<!-- Your existing home section content -->
-			<header class="major">
-				<h2>ABOUT ME<br /></h2>
-			</header>
-			
 			<p>
 				I am a data science enthusiast who is passionate about helping people learn and grow. with Master's degree in Data Science from Manchester Metropolitan University and 7 years of industry experise, I bring a wealth of experience to the world of data science.</p>
 			<p>
 				Feel free to explore my skills and experience, and don't hesitate to reach out for mentorship, advice, or opportunities in the dynamic realm of data science and Machine Learning.
 			</p>
 			
-			<h2>CONNECT WITH ME ON TOPMATE FOR DATA SCIENCE GUIDANCE</h2>
+			<h2>Connect with me on TOPMATE for guidance in Data Science</h2>
 			
-			<p>Visit my <a href="https://topmate.io/ansa_baby" target="_blank">Topmate Data Science Mentor page</a> for guidance and support in your data science journey.</p>
+			<p>Visit my <a style="font-size: 21px; color: blue;  font-style: italic; text-decoration: underline;" href="https://topmate.io/ansa_baby" target="_blank">Topmate Data Science Mentor page</a> for guidance and support in your data science journey.</p>
 			
 			<a href="https://topmate.io/ansa_baby" target="_blank">
 			<img src="images/topmate.jpg" alt="Topmate Mentor" style="width: 600px; height: 300px;">
@@ -131,12 +79,75 @@
 
 		
 
+		<!-- Skills Section -->
+		<section id= "skills" class="section-skills" id="section-skills">
+			<div class="container_sk" id="Skills">
+				<span class="subheading_sk">Tools</span>
+			</div>
+			<div class="container_sk skills-grid">
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/pandas.svg" alt="pandas icon" />
+					<p class="portfolio-title">Pandas</p>
+				</div>
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/numpy.png" alt="numpy icon" />
+					<p class="portfolio-title">Numpy</p>
+				</div>
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/matplot.png" alt="matpolt icon" />
+					<p class="portfolio-title">Matplot</p>
+				</div>
 
-		<!-- Projects Section -->
-		<section id="projects">
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/sikitlearn.png" alt="scikitlearn icon" />
+					<p class="portfolio-title">Scikit-Learn</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/excel.png" alt="excel icon" />
+					<p class="portfolio-title">Excel</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/google.png" alt="google sheets icon" />
+					<p class="portfolio-title">Google Sheets</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/sqlserver.png" alt="sqlserver icon" />
+					<p class="portfolio-title">SQL Server</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/power-bi-icon.jpg" alt="Power Bi icon" />
+					<p class="portfolio-title">Power Bi</p>
+				</div>
+				
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/Tableau.png" alt="tableau icon" />
+					<p class="portfolio-title">Tablaue</p>
+				</div>
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/jupyter.png" alt="jupyter icon" />
+					<p class="portfolio-title">Jupyter Notebook</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/google_colab.png" alt=" google colab icon" />
+					<p class="portfolio-title">Google-Colab</p>
+				</div>
+
+				<div class="skill-item">
+					<img loading="lazy" class="skill-item-img" src="assets/icons/vs.jpg" alt=" visual studio icon" />
+					<p class="portfolio-title">Visual Studio</p>
+				</div>
+			</div>
+		
 			<!-- Your existing projects section content -->
 			<div class="text-center">
-				
+				<div id="Skills">
+				<span class="subheading_sk">Skills</span>
+			</div>
 				<div class="container">
 					<div class="row skillbar-wraps">
 						<div class="col-lg-4 skill-left">
@@ -228,81 +239,117 @@
 				</div>
 					</div>
 				</div>
+				
+				<div id="Skills" style="margin-top: 60px;">
+					<span class="subheading_sk">Badges</span>
+				</div>
+				<div class="badge-container">
+					<div class="badge-item">
+						<a href="https://www.credly.com/badges/69013dc7-667b-4dfa-9b2f-8a937440749b/public_url" target="_blank">
+							<img src="https://images.credly.com/size/680x680/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png" alt="Badge Image" />
+						</a>
+					</div>
+					<div class="badge-item">
+						<a href="https://www.credly.com/badges/98cd859c-74e6-4d5c-9945-bbe4a4c2586d/public_url" target="_blank">
+							<img src="https://images.credly.com/size/220x220/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png" alt="Badge Image" />
+						</a>
+					</div>
+					<div class="badge-item">
+						<a href="https://www.credly.com/badges/59d83bd0-9ee9-4917-b7a7-2bd4b3076a1a/public_url" target="_blank">
+							<img src="https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge Image" /> </a>
+					</div>
+					<div class="badge-item">
+						<a href="https://www.credly.com/badges/888eec7f-4849-4dd0-b9c0-9fa4bcdced50/public_url" target="_blank">
+							<img src="https://images.credly.com/size/220x220/images/5df82cee-c54c-4006-b17d-ff9a5127beeb/image.png" alt="Badge Image" />
+						</a>
+					</div>
+					<div class="badge-item">
+						<a href="https://www.credly.com/badges/80d358f1-ab5f-4676-8192-abc07ddabf40/public_url" target="_blank">
+							<img src="https://images.credly.com/size/680x680/images/af151b3d-9453-48a8-8d22-5b9fc54d2b43/image.png" alt="Badge Image" />
+						</a>
+					</div>
+					<br>
+				</div>
+				<div style="height:105px"></div>
 		</section>
 
 		<!-- Experience Section -->
 		<section id="EDUCATION">
-			<!-- Your existing experience section content -->
-					<!-- Your existing certifications section content -->
-					<h2>EDUCATION<br /></h2>
-					<p>
-						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3>
- 						Manchester Metropolitan University,UK<br>
-						Passed with Distinction (80%)
-						<br>
-						M.Sc.Data Science, 2022-2023<br><br></br>
-						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> Easa College of Engg & Tech, India<br>
-						Passed with Distinction (80%)	
-						<br>						
-						B.E. Electronics & Communication Engineering,2015-2019
-						
-					</p>
-							
+		
+			<h2>Education<br /></h2>
+				<div class="col-lg-12">
+				<svg width="1050" height="100">
+					<line class="line" x1="0" y1="50" x2="750" y2="50"></line>
+
+					<circle class="circle" cx="200" cy="50" r="10" fill="#FFA500"></circle>
+					<text class="text" x="200" y="80" fill="white">2011</text>
+					<text class="text-small" x="10" y="30" fill="white">Victoria Higher Sec School</text>
+					<text class="text-small" x="10" y="80" fill="white">Computer Science</text>
+
+					<circle class="circle" cx="450" cy="50" r="10" fill="#FFA500"></circle>
+					<text class="text" x="460" y="80" fill="white">2015</text>
+					<text class="text" x="300" y="30" fill="white">Bachelor Degree</text>
+					<text class="text" x="330" y="80" fill="white">Easa College of Engg & Tech</text>
+
+					<circle class="circle" cx="750" cy="50" r="10" fill="#FFA500"></circle>
+					<text class="text" x="770" y="80" fill="white">2023</text>
+					<text class="text-small" x="560" y="30" fill="white">Data Science</text>
+					<text class="text-small" x="500" y="80" fill="white">Manchester Metropolitan University</text>
+				</svg>
+			</div>
+			<p>
+			  <h3 class="icon solid fa-home" style="display: inline-block; margin: 0 0 0 0;"><span class="label">Address</span></h3>
+			  <span class="highlight">Manchester Metropolitan University, UK</span><br>
+			  M.Sc. Data Science, 2022-2023<br>
+			  Passed with Distinction (80%)
+			  <br><br>
+			  <h3 class="icon solid fa-home" style="display: inline-block; margin: 0 0 0 0;"><span class="label">Address</span></h3>
+			  <span class="highlight">Easa College of Engg & Tech, India</span><br>
+			  B.E. Electronics & Communication Engineering, 2015-2019<br>
+			  Passed with Distinction (80%)
+			  <br>
+			</p>
 		</section>
 
-		<!-- Certifications Section -->
-		<section id="certifications">
-						<h2 class="mb-10">BADGES</h2>
-							<div class="badge-container">
-								<div class="badge-item">
-									<a href="https://www.credly.com/badges/69013dc7-667b-4dfa-9b2f-8a937440749b/public_url" target="_blank">
-										<img src="https://images.credly.com/size/680x680/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png" alt="Badge Image" />
-									</a>
-								</div>
-								<div class="badge-item">
-									<a href="https://www.credly.com/badges/98cd859c-74e6-4d5c-9945-bbe4a4c2586d/public_url" target="_blank">
-										<img src="https://images.credly.com/size/220x220/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png" alt="Badge Image" />
-									</a>
-								</div>
-								<div class="badge-item">
-									<a href="https://www.credly.com/badges/59d83bd0-9ee9-4917-b7a7-2bd4b3076a1a/public_url" target="_blank">
-										<img src="https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge Image" /> </a>
-								</div>
-								<div class="badge-item">
-									<a href="https://www.credly.com/badges/888eec7f-4849-4dd0-b9c0-9fa4bcdced50/public_url" target="_blank">
-										<img src="https://images.credly.com/size/220x220/images/5df82cee-c54c-4006-b17d-ff9a5127beeb/image.png" alt="Badge Image" />
-									</a>
-								</div>
-								<div class="badge-item">
-									<a href="https://www.credly.com/badges/80d358f1-ab5f-4676-8192-abc07ddabf40/public_url" target="_blank">
-										<img src="https://images.credly.com/size/680x680/images/af151b3d-9453-48a8-8d22-5b9fc54d2b43/image.png" alt="Badge Image" />
-									</a>
-								</div>
-							</div>
-							<div style="height:105px"></div>
-							
-					<h2>CERTIFICATIONS</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/bi.jpg" class="image fit thumb"><img src="images/thumbs/bi.jpg" alt="" /></a>
-								<span>Datacamp Associate Data Scientist Certification</span>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/uda.jpg" class="image fit thumb"><img src="images/thumbs/uda.jpg" alt="" /></a>
-								<span>Udemy Data Sciene Certification</span>
-								 
-							</article>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/rpa.jpg" class="image fit thumb"><img src="images/thumbs/rpa.jpg" alt="" /></a>
-								<span>Infosys Certified RPA Developer</span>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/da.jpg" class="image fit thumb"><img src="images/thumbs/da.jpg" alt="" /></a>
-								<span>High Performance Computing- Archer 2</span>
-							</article>
-						</div>
+		<section id="projects">
+		<div class="projects">
+			 <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Analysing-Netflix-Movies-and-Guest-Stars-in-The-Office', '_blank');">
+				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Netflix Movies and Guest Stars Analysis</h2>
+				<img src="images/net.jpg" alt="" style="height: 360px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Investigated Netflix movies and guest stars using Python on DataCamp. Explored relationships and trends within the dataset to derive meaningful insights. Conducted sentiment analysis on user reviews. Applied natural language processing techniques to extract valuable information from textual data.</p>
+			  </div>
+			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Fitness-Dataset-analysis', '_blank');">
+				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Fitness Dataset Analysis</h2>
+				<img src="images/fit.jpeg" alt="" style="height: 330px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Conducted a machine learning analysis on gym attendance data over several years. Explored trends and patterns to understand factors influencing attendance. Applied time-series analysis to predict future attendance. Provided actionable insights for optimizing gym operations.</p>
+			  </div>
+			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Car-prize-prediction--Academic-Mini-Project', '_blank');">
+				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Car Prize Prediction - Academic Mini Project</h2>
+				<img src="images/carprediction.jpeg" alt="" style="height: 330px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Developed an academic mini project to predict car prices for both used and new cars. Explored various regression models and assessed their predictive accuracy. Conducted feature importance analysis to understand the factors influencing car prices. Applied cross-validation techniques to ensure model reliability.</p>
+			  </div>
+			  
+			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Big-Data-Hypothesis-Analysis-using-Apache-Spark', '_blank');">
+				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Big Data Hypothesis Analysis using Apache Spark</h2>
+				<img src="images/big.jpg" alt="" style="height: 330px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;" >Utilized Apache Spark for hypothesis analysis on two large datasets. Investigated correlations and relationships between variables to derive meaningful insights. Implemented distributed computing techniques to handle big data efficiently. Presented findings through interactive visualizations.</p>
+			  </div>
 
+			   <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Brain-Tumor-Classification', '_blank');">
+				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Brain Tumor Classification</h2>
+				<img src="images/brain.jpg" alt="" style="height: 330px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Developed a deep learning model for classifying brain tumor images. Explored hyperparameter tuning techniques to enhance model accuracy and performance. Implemented transfer learning with pre-trained models for feature extraction. Evaluated model robustness and generalization on diverse datasets.</p>
+			  </div>
+
+			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Auto-Trader---Advanced-Machine-Learning-Analysis', '_blank');">
+				<h2 class="project-title" style="font-size: 20px;    color: navy;">Auto Trader - Advanced Machine Learning Analysis</h2>
+			    <img src="images/car.png" alt="" style="height: 330px;width:600px"/>
+				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Implemented advanced machine learning algorithms to predict car prices. Explored various models, including ensemble methods, and fine-tuned parameters for optimal performance. Conducted thorough feature engineering to enhance model accuracy.</p>
+			  </div>
+
+
+			</div>
 		</section>
 	</div>
 
@@ -319,12 +366,67 @@
 			// Show the selected section
 			$('#home').show();
 	});
-		function showSection(sectionId) {
-			// Hide all sections
-			$('section').hide();
-			// Show the selected section
-			$('#' + sectionId).show();
-		}
+	
+	function showSection(sectionId) {
+	  // Hide all sections
+	  $('section').hide();
+	  // Show the selected section
+	  $('#' + sectionId).show();
+	}
+
+	document.addEventListener('DOMContentLoaded', function () {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i = 0; i < elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+  });
+
+  var TxtType = function (el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+
+  TxtType.prototype.tick = function () {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.querySelector('.wrap').innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) {
+      delta /= 2;
+    }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(function () {
+      that.tick();
+    }, delta);
+  };
 	</script>
 </body>
 </html>
