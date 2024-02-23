@@ -77,13 +77,12 @@ input, select, textarea {
   }
 .socialmediaicon
 {
-	margin: -25em 60em -23em;
+	margin: -30em 60em -23em;
 }
  
 .blog-section {
     display: grid;
     gap: 20px;
-	width: 100%;
 }
 
 .featured-videos,
@@ -91,9 +90,11 @@ input, select, textarea {
 .medium-posts,
 .latest-blog-posts {
     background-color: black;
-    padding: 20px;
     border-radius: 8px;
-	width: 100%;
+}
+.medium-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .featured-videos h2,
@@ -109,7 +110,6 @@ input, select, textarea {
 .latest-blog-posts ul {
     list-style-type: none;
     padding: 0;
-	width: 100%;
 }
 
 .latest-blog-posts ul li {
@@ -130,7 +130,6 @@ input, select, textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-	width: 100%;
 }
 
 .video-card {
@@ -183,12 +182,6 @@ input, select, textarea {
 
 .post-card a:hover h3 {
     color: #666;
-}
-.medium-posts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-	width: 100%;
 }
 
 .medium-posts .post-card {
@@ -390,7 +383,6 @@ input, select, textarea {
 
 .card3 {
      padding: 32px;
-    width: 100%;
     height: auto;
  border-radius: 30px;
  background: #212121;
@@ -3845,7 +3837,6 @@ input, select, textarea {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-	width: 100%;
 }
 .project-card {
   background-color: #fff;
