@@ -637,7 +637,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 780px) {
 
 			.container {
 				max-width: calc(100% - 3em);
@@ -1868,7 +1868,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 780px) {
 
 			.row {
 				display: flex;
@@ -2667,7 +2667,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 780px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3787,7 +3787,7 @@ input, select, textarea {
 			}
 
 	}
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
 
     /* Header */
     #header {
