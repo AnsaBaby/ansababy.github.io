@@ -121,7 +121,7 @@ input, select, textarea {
 .latest-blog-posts ul li a:hover {
     color: #666;
 }
-.medium-posts,
+
 .instagram-posts,
  .youtube-videos {
     display: grid;
@@ -3829,7 +3829,6 @@ input, select, textarea {
 	height: 300px;
     width: 350px;
 }
-.medium-posts,
 .instagram-posts,
  .youtube-videos {
     display: grid;
