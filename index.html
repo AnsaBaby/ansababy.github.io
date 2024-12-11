@@ -1,514 +1,794 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<title>Ansa's Analytics Arena</title>
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-lKuwH6xcC+XjEVvYmKfHjG83R2J/T5Lz6A6gGtiMSxFZwM94V5XL5z6fUPfaAzNB" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ansa's Devfolio!</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="is-preload"">
-	<!-- Main Content -->
-	<div id="mainn">
-		<!-- Navigation Buttons -->
-		<nav id="nav">
-			<ul class="links">
-				<li><a class="headerpanel" id= "ahome" href="#" onclick="showSection('home')">Home</a></li>
-				<li><a class="headerpanel" id= "ablog" href="#" onclick="showSection('blog')" >Blog</a></li>
-				<li><a class="headerpanel" id= "askills" href="#" onclick="showSection('skills')">Skills</a></li>
-				<li><a class="headerpanel" id= "aEducation" href="#" onclick="showSection('EDUCATION')">Education</a></li>
-				<li><a class="headerpanel" id= "aProjects" href="#" onclick="showSection('projects')">Projects</a></li>
-			</ul>
-		</nav>
-		
-		<!-- About Section -->
-			<section id="home">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/5.jpg" alt="" style="height: 230px;"/></a>
-					  <h3 style="font-size: 4.25em;margin: 0 0 0 0;background-image: linear-gradient(to bottom right, green,yellow,purple,white,red,blue,pink);
-								color: transparent;    display: inline-block;    -webkit-background-clip: text;    background-clip: text;">
-						  <a class="typewrite" data-period="1000"
-							  data-type='["Hello!", "Bonjour!","Namaste!", "Hola!","Ciao!", "Hallo!", "Ahlan!", "Olá!"]'>
-							<span class="wrap"></span>
-						  </a>
-					  </h3>
-					<h2 style="color:white;"><strong>I am Ansa Baby </strong><br>I love Data Storytelling & Machine Learning.  I'm excited to present <br> my portfolio filled with data-driven discoveries. Have fun exploring!<br/></h2>
-						<p style="    color: greenyellow;    font-style: italic;">
-							I am a data science enthusiast who is passionate about helping people learn and grow.<br> 
-							with Master's degree in Data Science from Manchester Metropolitan University and 7 years of industry experise,<br> 
-							I bring a wealth of experience to the world of data science and software development.<br><br>
-							Feel free to explore my skills and experience, and don't hesitate to reach out for mentorship, advice, or opportunities in the <br>dynamic realm of data science and Machine Learning.
-						</p>
-				</div>
-				<div  class ="socialmediaicon">
-					<ul class="icons">
-						<li><a href="https://www.youtube.com/@TheFriendlyDataGeek?sub_confirmation=1" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-						<li><a href="https://linktr.ee/the_data_artistry" target="_blank" class="icon fa-solid fa-user"><span class="label">Linktree</span></a></li>
-						<li><a href="https://www.instagram.com/thedataartistry/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://ansababy.medium.com/" target="_blank" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
-						<li><a href="https://www.linkedin.com/in/ansababy/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/AnsaBaby" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:the.data.artistry@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
 
-				<!-- New "Get in Touch" section -->
-				<div style="margin-top: 550px; text-align: center!important; padding: 77px;border: 2px solid; border-image: linear-gradient(to right, #3495EB, #00FFA1); border-image-slice: 1;">
-					<h3 style="color: #fff; font-size: 50px; font-weight: 700;">Get in Touch</h3>
-					<p style="color: #fff; font-size: 15px; line-height: 28px; margin-bottom: 30px; margin-top: 12px;">
-						My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-						<br>Let's connect and discuss.
-					</p>
-					<a href="mailto:the.data.artistry@gmail.com" style="display: inline-block; padding: 15px 30px; background-color: #4CAF50; color: white; background: linear-gradient(to bottom right, #fc575e, #65b6f3);text-decoration: none; font-size: 18px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">
-						Let's connect
-					</a>
-				</div>
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Ansa Baby</h1>
+    </a>
+
+    <div class="social-links text-center">
+	  <a href="https://www.linkedin.com/in/ansababy/" class="icon brands fa-linkedin"  target="_blank" ><i class="bi bi-linkedin"></i></a>
+	  <a href="https://github.com/AnsaBaby" class="github"  target="_blank" ><i class="bi bi-github"></i></a>
+	  <a href="https://ansababy.medium.com/" class="medium"  target="_blank" ><i class="bi bi-medium"></i></a>
+	  <a href="https://linktr.ee/the_data_artistry" class="snow2"  target="_blank" ><i class="bi bi-snow2"></i></a>
+	  <a href="https://www.credly.com/users/ansa-baby" class="c-circle"  target="_blank" ><i class="bi bi-c-circle"></i></a>
+      <a href="https://www.instagram.com/thedataartistry/" class="instagram"  target="_blank" ><i class="bi bi-instagram"></i></a>
+	  <a href="https://www.youtube.com/@TheFriendlyDataGeek?sub_confirmation=1" class="youtube"  target="_blank" ><i class="bi bi-youtube"></i></a>
+      <a href="mailto:the.data.artistry@gmail.com" class="envelope"  target="_blank" ><i class="bi bi-envelope"></i></a>	
+	  <a href="https://g.dev/ansababy" class="google"  target="_blank" ><i class="bi bi-google"></i></a>	
+  
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#home" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+		<li><a href="#skills"><i class="bi bi-file-earmark-text navicon"></i> Skills</a></li>
+        <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="#blogs"><i class="bi bi-hdd-stack navicon"></i> Blogs</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Ansa Baby</h2>
+        <p>I'm <span class="typed" data-typed-items="Lead Full-Stack Software Developer, Machine-Learning Engineer, Software Architect">Full-Stack Software Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p class="fst-italic"> Welcome to my portfolio! </p>
+		<p> I am a seasoned Lead Full Stack Engineer, Software Architect, and Research Machine Learning Engineer with eight years of experience delivering scalable and innovative solutions. Proficient in technologies like C#, Python, SQL,.NET Core and Data science, I specialize in developing robust applications, automating complex workflows, and leveraging machine learning to drive data-driven insights. My work spans diverse domains, including cloud computing, predictive analytics, and enterprise automation. As a Google Women Tech Makers Ambassador, I am passionate about promoting diversity and mentoring the next generation of technologists.  </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-8 content">
+            <h2>Lead Full Stack Software Developer &amp; Machine-Learning Engineer.</h2>
+            <p class="fst-italic py-3">
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>8 August 1994</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>India</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Residence Status:</strong> <span>Manchester, UK</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Masters in Data Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>the.data.artistry@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>With Master's in Data Science and 7 years of industry experise, I bring a wealth of experience to the world of data science and software development.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>ASP .Net & C#</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+			<div class="progress">
+              <span class="skill"><span>Blazor, MAUI & Razor</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+			
+            <div class="progress">
+              <span class="skill"><span>SQL</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>RPA</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+			
+			 <div class="progress">
+              <span class="skill"><span>Microsoft Azure</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+			
+			<div class="progress">
+              <span class="skill"><span>Exploratory data analysis (EDA)</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+			
+			 <div class="progress">
+              <span class="skill"><span>Visualization (Power BI) </span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+			
+			 <div class="progress">
+              <span class="skill"><span>TensorFlow </span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+           
+
+            <div class="progress">
+              <span class="skill"><span>Machine Learning</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Science &amp; Data Science</h4>
+			  <p><em> Manchester Metropolitan University, Manchester UK</em><h6>2022 - 2023</h6></p>
+              <p><strong>Course work Research : </strong>Towards Sustainable Aviation: Utilizing Machine Learning, Remote Sensing, and Climate Modelling to Optimize Contrail Detection and Mitigation for Effective Reduction of Aviation-Related Global Warming</p>
+              <p>Passed with Distinction (80%)</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Engineering &amp; Electronics & Communication Engineering</h4>
+			  <p><em>Easa College of Engg & Tech, India</em></p>
+              <h6>2011 - 2015</h6>
+              <p>Passed with First Class (79%)</p>
+            </div><!-- Edn Resume Item -->
+		   <div style="height:30px">
+		   </div>
+		  <div>
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+				<h5>Microsoft Azure (AZ 900) Fundamentals <a href="https://www.credly.com/badges/59d83bd0-9ee9-4917-b7a7-2bd4b3076a1a"  target="_blank" title="certificate" class="details-link"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+			<div class="resume-item">
+			<h5>Microsoft Azure AI (AI 900) Fundamentals <a href="https://www.credly.com/badges/69013dc7-667b-4dfa-9b2f-8a937440749b"  target="_blank" title="certificate" class="details-link"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+			<div class="resume-item">
+			<h5>Microsoft Azure Data(DP 900) Fundamentals <a href="https://www.credly.com/badges/98cd859c-74e6-4d5c-9945-bbe4a4c2586d"  target="_blank" title="certificate" class="details-link"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+			<div class="resume-item">
+			<h5>PMI Project Management Ready <a href="https://www.credly.com/badges/dcfb1966-c420-4659-9a18-e04bb3671be7"  target="_blank" title="certificate" class="details-link"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+			
+			<div class="resume-item">
+			<h5>Microsoft Office Specialist: Associate (Microsoft 365 Apps) - Excel, Word, PowerPoint <a href="https://www.credly.com/badges/888eec7f-4849-4dd0-b9c0-9fa4bcdced50"  target="_blank" title="certificate" class="details-link"><i class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+         </div>
+		<div style="height:30px">
+		   </div>
+		 <div>
+            <h3 class="resume-title">Community leadership & Advocay</h3>
+            <div class="resume-item">
+				<h5>Google Women Tec Makers Ambassador</h5>
+            </div>
+			<div class="resume-item">
+			<h5>PEAs in Pods(public engagement for Data and AI Community Co-Production)</h5>
+            </div>
+         </div>
+		 
+         </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>R&D Developer Engineer </h4>
+              <p><em>2023 - Present    •    Manchester, UK</em></p>
+              <ul>
+                <li  style="color:var(--accent-color)">Tech Stack: Python, C#, Pandas, data Pipelines, SQL, Azure, Machine Learning, Scikit-Learn, Power BI, Docker, Kubernetes</li>
+                <li>Designed and deployed machine learning models to analyse laser performance data, to reduce noise levels, leading to enhanced precision in laser outputs and improved product quality.</li>
+				<li>Built a Chrome extension for secure local settings file access ( JSON & XML, SQL & Postgres SQL) and a custom NuGet package using graph structures and advanced data structures and algorithms</li>
+                <li>Developed predictive maintenance pipelines and implemented unsupervised learning techniques to cluster laser usage patterns, identifying key operational inefficiencies and optimizing production workflows.</li>
+                <li>Collaborated with R&D teams to integrate AI-driven calibration algorithms for lasers, improving accuracy and reducing manual adjustments by 
+                <li>Built and visualized Power BI dashboards to communicate insights derived from laser data, driving data-driven decision-making.</li>
+                <li>Conducted exploratory data analysis (EDA) to identify correlations between laser settings and performance metrics, offering actionable insights for design enhancements.</li>
+				<li>Applied Test-Driven Development (TDD) methodologies to develop reliable and maintainable software, simulating hardware scenarios with Moq and MS Test, ensuring safety and efficiency in a hardware-integrated environment</li>
+				<li>Led a cross-functional team to design and implement scalable software architectures, improving system reliability and performance by 40% using Builder and Template Design Patterns and eliminating repetitive code.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Technical Analyst</h4>
+              <p><em>Chennai, India    •    2017 - 2022</em></p>
+              <ul>
+                <li  style="color:var(--accent-color)">Tech Stack: C#, WPF, .Net, SQL, RPA, Azure, Elasticsearch, Azure, Git, OCR Tools, Domain-Driven Design (DDD)</li>
+                <li>Led a team 5 to deliver enterprise-level automation solutions in C# within agile environments, achieving 90% automation.</li>
+                <li>Architected a vaccination verification platform using Restful APIs, RPA, Outlook, SharePoint, RabbitMQ, Elastic Search, and ABBYY OCR, ensuring business continuity during the pandemic.</li>
+                <li>Designed and implemented an automation framework managing live shipment bookings, enabling real-time updates via SharePoint and reducing processing time</li>
+                <li>Applied Domain-Driven Design (DDD) principles to model complex business processes, creating a robust and scalable architecture that aligned with enterprise needs.</li>
+                <li>Migrated legacy systems to Azure, improving uptime and scalability, and enhanced debugging using Elasticsearch and Kibana for monitoring capabilities.</li>
+                <li>Awarded the Applause, Curtin and many other awards for delivering a critical application within one week and received multiple client appreciations for meaningful contributions, leadership and innovation.</li>
+                <li>Mentored junior developers, providing hands-on training in SQL, stored procedures, and C#, boosting productivity by 25%.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+			
+            <div class="resume-item">
+              <h4>Cognizant Technology Solutions</h4>
+              <p><em>Chennai, India    •    2016 - 2017</em></p>
+              <ul>
+                <li style="color:var(--accent-color)">Tech Stack: C#, Asp.Net MVC, SQL, JavaScript, jQuery, HTML, CSS, TFS</li>
+                <li>Developed enterprise web applications with C# and ASP.NET MVC, applying SOLID principles to refactor code maintainability.</li>
+                <li>Designed and consumed RESTful APIs for efficient communication between systems and enhanced role-based security using Identity and Access Management (IAM).</li>
+                <li>Collaborated with QA, DevOps, IT Support and senior developers to improve backend systems and optimize database queries, enhancing application performance.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+			<li data-filter=".filter-project">Software</li>
+            <li data-filter=".filter-dproject">Data</li>
+			<li data-filter=".filter-dashboards">Dashboards</li>
+            <li data-filter=".filter-roadmap">Roadmaps</li>
+
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dproject">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/dproject2.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Data Project</h4>
+                  <p>Brain Tumor Classification with PyTorch</p>
+                   <a href="https://github.com/AnsaBaby/Brain-Tumor-Classification-with-PyTorch"  target="_blank" title="GitHub Repo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dashboards">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/dashboard1.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Global Hunger Index9 GHI) Dashboard</h4>
+                  <p>Global Hunger Index9 GHI) Dashboard</p>
+                  <a href="assets/img/portfolio/dashboard1.jpg" title="Global Hunger Index9 GHI) Dashboard" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/AnsaBaby/Power-BI-Dashboards/tree/main/Gloabl%20Hunger%20Index%20Dashboard"  target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-roadmap">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/roadmap3.jpg" class="img-fluid" alt=""   style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Roadmap 3</h4>
+                  <p>Roadmap for NLP & LLM</p>
+                   <a href="https://medium.com/ai-in-plain-english/getting-started-with-natural-language-processing-nlp-large-language-models-llms-adf4fcf1398a" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+		
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dproject">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/dproject1.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Data Project</h4>
+                  <p>Fraud Detection Using Neural Networks</p>
+                  <a href="https://github.com/AnsaBaby/ML-Project---Fraud-Detection-with-TensorFlow" title="GitHub Repo"  target="_blank"  class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+			
+			
+			                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-roadmap">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/roadmap1.png" class="img-fluid" alt="" style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Roadmap 1</h4>
+                  <p>Roadmap to be a Data Analyst</p>
+                  <a href="https://thedataartistry.gumroad.com/l/rcpzxa?_gl=1*19g4b5x*_ga*NTA3ODkxMTU3LjE3MDY3MzUxNjE.*_ga_6LJN6D94N6*MTcwODIxNDQxMy4xNi4xLjE3MDgyMTQ0MjMuMC4wLjA" title="More Details"  target="_blank" class="details-link" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-project">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/project1.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Project 1</h4>
+                  <p>URL Shortener with Go & No SQL(Cassandra CQL)</p>
+                  <a href="https://github.com/AnsaBaby/URL-Shortener-with-Go-No-SQL" title="GitHub Repo"  target="_blank"  class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+			
+			
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-roadmap">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/roadmap2.png" class="img-fluid" alt="" style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Roadmap 2</h4>
+                  <p>Roadmap to be a Data Scientist</p>
+                  <a href="https://thedataartistry.gumroad.com/l/rcpzxa?_gl=1*19g4b5x*_ga*NTA3ODkxMTU3LjE3MDY3MzUxNjE.*_ga_6LJN6D94N6*MTcwODIxNDQxMy4xNi4xLjE3MDgyMTQ0MjMuMC4wLjA" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dashboards">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/dashboard2.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>IMDB Movie Dashboard</h4>
+                  <p>IMDB Movie Dashboard</p>
+                  <a href="assets/img/portfolio/dashboard2.jpg" title="IMDB Movie Dashboard" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/AnsaBaby/Power-BI-Dashboards/tree/main/IMDB%20Dashboard" title="More Details"  target="_blank" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
 			
-			</section>
-		<section id="blog">
-			<div class="blog-section">
-				<div class="featured-videos" style="background-color: black">
-					  <h2>Featured YouTube Videos</h2>
-					  <div class="youtube-videos">
-						<div class="card1">
-						  <div class="card-info video-card">
-							<a href="https://youtu.be/15MOdpglb58" target="_blank">
-							  <img src="https://img.youtube.com/vi/15MOdpglb58/maxresdefault.jpg" alt="Video Thumbnail">
-							</a>
-						  </div>
-						</div>
-						<div class="card1">
-						  <div class="card-info video-card">
-							<a href="https://youtu.be/i_pr1Gqx36w" target="_blank">
-							  <img src="https://img.youtube.com/vi/i_pr1Gqx36w/maxresdefault.jpg" alt="Video Thumbnail">
-							</a>
-						  </div>
-						</div>
-					  </div>
+			    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dproject">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/dproject3.jpg" class="img-fluid" alt=""  style="height: 255px;">
+                <div class="portfolio-info">
+                  <h4>Data Project</h4>
+                  <p>Auto-ML PyCaret Iris Multiclass classification</p>
+
+                  <a href="https://github.com/AnsaBaby/Auto-ML-PyCaret--Iris-Multiclass-classification" title="GitHub Repo"  target="_blank"  class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="blogs" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Blogs</h2>
+        <p>I enjoy writing Software, Data, Tech Trends and whatever else interests me! </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title"><a href="https://ai.plainenglish.io/mathematical-understanding-of-decision-tree-algorithm-c7a768377317" class="stretched-link"  target="_blank">Mathematics Behind The Decision Tree Algorithm</a></h4>
+              <p class="description">A Guide to Understanding the Mathematics Behind Decision Tree Algorithm</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div>
+              <h4 class="title"><a href="https://code.likeagirl.io/the-debugging-skills-no-school-taught-you-9c26e001aad6"  class="stretched-link" target="_blank">The Debugging Skills No School Taught You</a></h4>
+              <p class="description">Do it like a pro!</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/essential-apis-every-developer-should-know-for-2024-27f5ede2df98"  target="_blank" target="_blank" class="stretched-link">Essential APIs Every Developer Should Know for 2024</a></h4>
+              <p class="description">REST, SOAP, GraphQL, gRPC with Examples and Code Snippets</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/communicate-with-a-native-app-from-chrome-extension-using-c-blazor-to-save-a-file-to-a-specific-167447a99057"  target="_blank" class="stretched-link">How to Save As a File in C# Blazor WASM Using Chrome Extensions & Native Apps</a></h4>
+              <p class="description">Step-by-step guide in communicating with a Native App from Chrome extensions</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/understanding-the-mathematical-concepts-behind-the-k-nearest-neighbors-knn-algorithm-7eccf3e8fbc3"  target="_blank" class="stretched-link">Mathematics Behind the K-Nearest Neighbors (KNN) Algorithm</a></h4>
+              <p class="description">A Complete Beginner’s Guide to the Math Behind KNN</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/multi-class-classification-of-iris-dataset-using-pycaret-auto-ml-9c688017a7f4"  target="_blank" class="stretched-link">Multi-Class Classification of Iris Dataset using PyCaret Auto ML</a></h4>
+              <p class="description">A step-by-step explanation of using the Auto ML Library</p>
+            </div>
+          </div><!-- End Service Item -->
+		            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-body-text"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/creating-interactive-power-bi-dashboards-with-global-hunger-index-data-eaf91fdec99f"  target="_blank" class="stretched-link">Creating a Multi-Page Power BI Dashboard: A Step-by-Step Guide with Global Hunger Index Data</a></h4>
+              <p class="description">Learn How to Load, Transform, and Visualize Data in Power BI with Detailed Instructions and Screenshots</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-balloon-heart-fill"></i></div>
+            <div>
+              <h4 class="title"><a href="https://ansababy.medium.com/project-idx-vs-visual-studio-code-which-one-is-right-for-you-d9aa643581bd"  target="_blank" class="stretched-link">Project IDX vs. Visual Studio Code: Which One is Right for You?</a></h4>
+              <p class="description">Choose the perfect development environment</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-award"></i></div>
+            <div>
+              <h4 class="title"><a href="https://medium.com/tech-tensorflow/how-do-i-create-web-extensions-using-c-01ff0e18a9c4"  target="_blank" class="stretched-link">How to create web extensions using C#?</a></h4>
+              <p class="description">Step-by-step instructions to create a web extension Blazor C#</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+  <!--   Testimonials Section 
+    <section id="testimonials" class="testimonials section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>/Testimonials Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 container">
+
+          <div class="col-lg-5 container">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Manchester, United Kingdom</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>the.data.artistry@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+			  	<div style="overflow:hidden;max-width:100%;width: 100%;height:270px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Manchester,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="get-map-data">InMotion Hosting</a><style>#embed-ded-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 container">	
+			<div class="info-wrap">		  
+				<div class="section-title" data-aos="fade-up">
+					<h2>Get in Touch</h2>
+				  </div>
+				  <div style="text-align: center;    border: 2px solid;     border-image: linear-gradient(to right, #3495EB, #00FFA1);    border-image-slice: 1;    text-align: center !important;    padding: 59px;">
+					<p style=" font-size: 15px; line-height: 28px; margin-bottom: 30px; margin-top: 12px;">My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+						
+						<br>
+						Let's connect and discuss.
+						
+					</p>
+					
+					<a href="mailto:the.data.artistry@gmail.com" style="display: inline-block; padding: 15px 30px; background-color: #4CAF50; color: white; background: var(--accent-color);text-decoration: none; font-size: 18px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">
+						Let's connect
+					</a>
+					
 				</div>
-				
-				<div class="featured-videos">
-					<h2>Featured Instagram Posts</h2>
-					<div class="instagram-posts">
-						<div class="card">
-							<div class="card-info video-card">
-								<a href="https://www.instagram.com/p/C1poA3INIs9/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">
-									<img  src="images/2.png" alt="Instagram Post">
-								</a>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-info video-card">
-								<a href="https://www.instagram.com/p/C3BXkQVr5BS/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" target="_blank">
-									<img  src="images/3.png"  alt="Instagram Post">
-								</a>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-info video-card">
-								<a href="https://www.instagram.com/p/C1nXf8dtbwz/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">
-									<img  src="images/1.png"  alt="Instagram Post">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="medium-posts">
-				 <h2>Roadmaps</h2></br>
-				<div class="instagram-posts">
-					<div class="card2">
-						<div class="card-info video-card">
-							<a href="https://thedataartistry.gumroad.com/l/uuscr?_gl=1*giu2kg*_ga*NTA3ODkxMTU3LjE3MDY3MzUxNjE.*_ga_6LJN6D94N6*MTcwODIxNDQxMy4xNi4wLjE3MDgyMTQ0MTMuMC4wLjA">
-							<img  src="images/6.png"  alt="Instagram Post">
-							</a>
-						</div>
-					</div>
-					<div class="card2">
-					<div class="card-info video-card">
-						<a href="https://thedataartistry.gumroad.com/l/rcpzxa?_gl=1*19g4b5x*_ga*NTA3ODkxMTU3LjE3MDY3MzUxNjE.*_ga_6LJN6D94N6*MTcwODIxNDQxMy4xNi4xLjE3MDgyMTQ0MjMuMC4wLjA">
-						<img  src="images/7.png"  alt="Instagram Post">
-						</a>
-						</div>
-					</div>
-				</div>
-				</div>
-				<div><h2 style="color: antiquewhite;">Latest Blog Posts</h2>
-				<div class="card3">
-						<ul>
-						   <li><a href="https://medium.com/@ansababy/story-telling-with-iris-dataset-multi-class-classification-using-machine-learning-18a8d94f681f" target="_blank">Storytelling with Iris Dataset — Multi-class Classification using Machine Learning</a></li>
-						   <li><a href="https://medium.com/@ansababy/communicate-with-a-native-app-from-chrome-extension-using-c-blazor-to-save-a-file-to-a-specific-167447a99057" target="_blank">Communicate with a Native App from Chrome Extension using C# Blazor to save a file to a specific location</a></li>
-						    <li><a href="https://medium.com/@ansababy/how-do-i-create-web-extensions-using-c-01ff0e18a9c4" target="_blank">How do I create web extensions using C#?</a></li>
-							<li><a href="https://ansababy.medium.com/how-to-start-your-data-science-journey-420173a981a9" target="_blank">How & Where to start your Data Science Journey?</a></li>
-							<li><a href="https://ansababy.medium.com/a-roadmap-to-python-programming-71304f8f486b" target="_blank">A Roadmap to Python Programming</a></li>
-							<li><a href="https://ansababy.medium.com/an-introduction-to-python-basics-960dc3e7bebc" target="_blank">An introduction to Python Basics</a></li>
-							<li><a href="https://ansababy.medium.com/advanced-python-6740a0e7df1e" target="_blank">Advanced Python</a></li>
-							<li><a href="https://ansababy.medium.com/machine-learning-its-types-1082ba255d05" target="_blank">Machine Learning & its Types</a></li>
-							<li><a href="https://ansababy.medium.com/the-ultimate-guide-to-data-cleaning-ensuring-data-quality-and-accuracy-8b9119c45aa4" target="_blank">Data Cleaning Techniques</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		
+          </div>
 
-		<!-- Skills Section -->
-		<section id= "skills" class="section-skills" id="section-skills">
-			<div class="container_sk" id="Skills">
-				<span class="subheading_sk">Tools</span>
-			</div>
-			<div class="container_sk skills-grid">
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/pandas.svg" alt="pandas icon" />
-					<p class="portfolio-title">Pandas</p>
-				</div>
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/numpy.png" alt="numpy icon" />
-					<p class="portfolio-title">Numpy</p>
-				</div>
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/matplot.png" alt="matpolt icon" />
-					<p class="portfolio-title">Matplot</p>
-				</div>
+        </div>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/sikitlearn.png" alt="scikitlearn icon" />
-					<p class="portfolio-title">Scikit-Learn</p>
-				</div>
+      </div>
+    </section>
+  </main>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/excel.png" alt="excel icon" />
-					<p class="portfolio-title">Excel</p>
-				</div>
+  <footer id="footer" class="footer position-relative light-background">
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/google.png" alt="google sheets icon" />
-					<p class="portfolio-title">Google Sheets</p>
-				</div>
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/sqlserver.png" alt="sqlserver icon" />
-					<p class="portfolio-title">SQL Server</p>
-				</div>
+  </footer>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/power-bi-icon.jpg" alt="Power Bi icon" />
-					<p class="portfolio-title">Power Bi</p>
-				</div>
-				
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/Tableau.png" alt="tableau icon" />
-					<p class="portfolio-title">Tablaue</p>
-				</div>
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/jupyter.png" alt="jupyter icon" />
-					<p class="portfolio-title">Jupyter Notebook</p>
-				</div>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/google_colab.png" alt=" google colab icon" />
-					<p class="portfolio-title">Google-Colab</p>
-				</div>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-				<div class="skill-item">
-					<img loading="lazy" class="skill-item-img" src="assets/icons/vs.jpg" alt=" visual studio icon" />
-					<p class="portfolio-title">Visual Studio</p>
-				</div>
-			</div>
-		
-			<!-- Your existing projects section content -->
-			<div class="text-center">
-				<div id="Skills">
-				<span class="subheading_sk">Skills</span>
-			</div>
-				<div class="container">
-					<div class="row skillbar-wraps">
-						<div class="col-lg-4 skill-left">
-							<h4 class="text-center pt-50"> Software Skills            </h4>               
-							<p></p>
-							<div class="single-skill">
-								ASP.NET, C# -   5
-								<div data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
-							</div>
-							<p></p>
-							<div class="single-skill">
-								Python -   4
-								<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
-							</div>
-							<p></p>
-							<div class="single-skill">
-								SQL - 5
-								<div class="skill sb_progress" data-width="60" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
-							</div>
-						</div>
-						<div class="col-lg-4 skill-right">
-							<h4 class="text-center pt-50">Machine Learning         </h4>
-							<p></p>
-						<div class="single-skill">
-							Data Modeling - 5
-							<div class="skill sb_progress" data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
-								<div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-								</div>
-							</div>
-						</div>
-						<p></p>
-						<div class="single-skill">
-							TensorFlow - 4
-							<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
-								<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-								</div>
-							</div>
-						</div>
-						<p></p>
-						<div class="single-skill">
-							Big Data - 4
-							<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
-								<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-								</div>
-							</div>
-						</div>
-						</div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-						<div class="col-lg-4 skill-right">
-							<h4 class="text-center pt-50"> Data Analytics </h4>
-							<p></p>
-							<div class="single-skill">
-								Exploratory data analysis (EDA) - 5
-								<div class="skill sb_progress" data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
-									<div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-									</div>
-								</div>
-							</div>
-							<p></p>
-							<div class="single-skill">
-								Statistical Methods - 4
-								<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
-									<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-									</div>
-								</div>
-							</div>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-							<p></p>
-							<div class="single-skill">
-								Visualization (Tableau) - 3
-								<div class="skill sb_progress" data-width="60" style="position: relative; width: 100%; background-color: lightblue; height: 5px;">
-									<div class="sb_bar" style="position: absolute; width: 60%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
-										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="skill-levels">
-					<p>1 - Basic</p>
-					<p>2 - Novice</p>
-					<p>3 - Intermediate</p>
-					<p>4 - Advanced</p>
-					<p>5 - Expert</p>
-				</div>
-					</div>
-				</div>
-				
-				<div id="Skills" style="margin-top: 60px;">
-					<span class="subheading_sk">Badges</span>
-				</div>
-				<div class="badge-container">
-					<div class="badge-item">
-						<a href="https://www.credly.com/badges/69013dc7-667b-4dfa-9b2f-8a937440749b/public_url" target="_blank">
-							<img src="https://images.credly.com/size/680x680/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png" alt="Badge Image" />
-						</a>
-					</div>
-					<div class="badge-item">
-						<a href="https://www.credly.com/badges/98cd859c-74e6-4d5c-9945-bbe4a4c2586d/public_url" target="_blank">
-							<img src="https://images.credly.com/size/220x220/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png" alt="Badge Image" />
-						</a>
-					</div>
-					<div class="badge-item">
-						<a href="https://www.credly.com/badges/59d83bd0-9ee9-4917-b7a7-2bd4b3076a1a/public_url" target="_blank">
-							<img src="https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge Image" /> </a>
-					</div>
-					<div class="badge-item">
-						<a href="https://www.credly.com/badges/888eec7f-4849-4dd0-b9c0-9fa4bcdced50/public_url" target="_blank">
-							<img src="https://images.credly.com/size/220x220/images/5df82cee-c54c-4006-b17d-ff9a5127beeb/image.png" alt="Badge Image" />
-						</a>
-					</div>
-					<div class="badge-item">
-						<a href="https://www.credly.com/badges/80d358f1-ab5f-4676-8192-abc07ddabf40/public_url" target="_blank">
-							<img src="https://images.credly.com/size/680x680/images/af151b3d-9453-48a8-8d22-5b9fc54d2b43/image.png" alt="Badge Image" />
-						</a>
-					</div>
-					<br>
-				</div>
-				<div style="height:105px"></div>
-		</section>
-
-		<!-- Experience Section -->
-		<section id="EDUCATION">
-		
-			<h2>Education<br /></h2>
-			<div class="col-lg-12">
-			  <svg class="timeline" width="100%" height="120">
-				<line class="line" x1="0" y1="60" x2="100%" y2="60"></line>
-
-				<circle class="circle" cx="10%" cy="60" r="8" fill="#FFA500"></circle>
-				<text class="text" x="10%" y="78" fill="white">2011</text>
-				<text class="text-small" x="0" y="40" fill="white">Victoria Higher Sec School</text>
-				<text class="text-small" x="0" y="90" fill="white">Computer Science</text>
-
-				<circle class="circle" cx="50%" cy="60" r="8" fill="#FFA500"></circle>
-				<text class="text" x="50%" y="78" fill="white">2015</text>
-				<text class="text" x="30%" y="40" fill="white">Bachelor Degree</text>
-				<text class="text" x="35%" y="90" fill="white">Easa College of Engg & Tech</text>
-
-				<circle class="circle" cx="90%" cy="60" r="8" fill="#FFA500"></circle>
-				<text class="text" x="90%" y="78" fill="white">2023</text>
-				<text class="text-small" x="70%" y="40" fill="white">Data Science</text>
-				<text class="text-small" x="60%" y="90" fill="white">Manchester Metropolitan University</text>
-			  </svg>
-			</div>
-
-			<p>
-			  <h3 class="icon solid fa-home" style="display: inline-block; margin: 0 0 0 0;"><span class="label">Address</span></h3>
-			  <span class="highlight">Manchester Metropolitan University, UK</span><br>
-			  M.Sc. Data Science, 2022-2023<br>
-			  Passed with Distinction (80%)
-			  <br><br>
-			  <h3 class="icon solid fa-home" style="display: inline-block; margin: 0 0 0 0;"><span class="label">Address</span></h3>
-			  <span class="highlight">Easa College of Engg & Tech, India</span><br>
-			  B.E. Electronics & Communication Engineering, 2015-2019<br>
-			  Passed with Distinction (80%)
-			  <br>
-			</p>
-		</section>
-
-
-		<section id="projects">
-		<div class="projects">
-		
-		<div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Story-telling-with-Iris-Dataset/tree/main', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Story telling with Iris Dataset</h2>
-				<img src="images/iris-garden.jpg" alt="" class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">The Iris dataset is one of the most explained and easy-to-use datasets available for beginners to explore machine learning. We know that to draw in recruiters, we must find solutions to new challenges. Then why is it important to solve that again, knowing it’s a very small dataset with already clean data? It's because the important aspect is not always how you solve a problem; it's how you narrate the solution, i.e., the art of storytelling with the data and conclusions obtained.So, in this article, I am going to dive into the Iris dataset again. But this time I’m going to focus on creating a compelling story with Iris Flowers instead of just predicting the results.</p>
-			  </div>
-		
-			 <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Analysing-Netflix-Movies-and-Guest-Stars-in-The-Office', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Netflix Movies and Guest Stars Analysis</h2>
-				<img src="images/Net.jpg" alt="" class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Investigated Netflix movies and guest stars using Python on DataCamp. Explored relationships and trends within the dataset to derive meaningful insights. Conducted sentiment analysis on user reviews. Applied natural language processing techniques to extract valuable information from textual data.</p>
-			  </div>
-			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Fitness-Dataset-analysis', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Fitness Dataset Analysis</h2>
-				<img src="images/fit.jpeg" alt=""  class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Conducted a machine learning analysis on gym attendance data over several years. Explored trends and patterns to understand factors influencing attendance. Applied time-series analysis to predict future attendance. Provided actionable insights for optimizing gym operations.</p>
-			  </div>
-			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Car-prize-prediction--Academic-Mini-Project', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Car Prize Prediction - Academic Mini Project</h2>
-				<img src="images/carprediction.jpeg" alt=""  class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Developed an academic mini project to predict car prices for both used and new cars. Explored various regression models and assessed their predictive accuracy. Conducted feature importance analysis to understand the factors influencing car prices. Applied cross-validation techniques to ensure model reliability.</p>
-			  </div>
-			  
-			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Big-Data-Hypothesis-Analysis-using-Apache-Spark', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Big Data Hypothesis Analysis using Apache Spark</h2>
-				<img src="images/big.jpg" alt=""  class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;" >Utilized Apache Spark for hypothesis analysis on two large datasets. Investigated correlations and relationships between variables to derive meaningful insights. Implemented distributed computing techniques to handle big data efficiently. Presented findings through interactive visualizations.</p>
-			  </div>
-
-			   <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Brain-Tumor-Classification', '_blank');">
-				<h2 class="project-title"  style="font-size: 20px;    color: navy;">Brain Tumor Classification</h2>
-				<img src="images/brain.jpg" alt=""  class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Developed a deep learning model for classifying brain tumor images. Explored hyperparameter tuning techniques to enhance model accuracy and performance. Implemented transfer learning with pre-trained models for feature extraction. Evaluated model robustness and generalization on diverse datasets.</p>
-			  </div>
-
-			  <div class="project-card" onclick="window.open('https://github.com/AnsaBaby/Auto-Trader---Advanced-Machine-Learning-Analysis', '_blank');">
-				<h2 class="project-title" style="font-size: 20px;    color: navy;">Auto Trader - Advanced Machine Learning Analysis</h2>
-			    <img src="images/car.png" alt=""  class="projectimage"/>
-				<p class="project-description" style="font-size: 15px;   line-height: 1;color: black;">Implemented advanced machine learning algorithms to predict car prices. Explored various models, including ensemble methods, and fine-tuned parameters for optimal performance. Conducted thorough feature engineering to enhance model accuracy.</p>
-			  </div>
-
-
-			</div>
-		</section>
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script>
-	$(document).ready(function () {
-			$('section').hide();
-			// Show the selected section
-			$('#home').show();
-	});
-	
-	function showSection(sectionId) {
-	  // Hide all sections
-	  $('section').hide();
-	  // Show the selected section
-	  $('#' + sectionId).show();
-	}
-
-	document.addEventListener('DOMContentLoaded', function () {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i = 0; i < elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-type');
-      var period = elements[i].getAttribute('data-period');
-      if (toRotate) {
-        new TxtType(elements[i], JSON.parse(toRotate), period);
-      }
-    }
-  });
-
-  var TxtType = function (el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-  };
-
-  TxtType.prototype.tick = function () {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-      this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-      this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.querySelector('.wrap').innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) {
-      delta /= 2;
-    }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-      delta = this.period;
-      this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-      this.isDeleting = false;
-      this.loopNum++;
-      delta = 500;
-    }
-
-    setTimeout(function () {
-      that.tick();
-    }, delta);
-  };
-	</script>
 </body>
+
 </html>
